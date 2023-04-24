@@ -1,0 +1,587 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.git.qa.runners.RepoRunner" time="1.894" tests="32" errors="6" skipped="26" failures="0">
+  <properties>
+    <property name="jansi.mode" value="force"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="java.vm.version" value="17.0.6+10"/>
+    <property name="sun.boot.library.path" value="/Applications/Eclipse 2.app/Contents/Eclipse/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.macosx.x86_64_17.0.6.v20230204-1729/jre/lib"/>
+    <property name="maven.multiModuleProjectDirectory" value="/Users/hsrag/Desktop/QAThingsToDo/BDDworkspace/BDD_Git"/>
+    <property name="java.vm.vendor" value="Eclipse Adoptium"/>
+    <property name="java.vendor.url" value="https://adoptium.net/"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="path.separator" value=":"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/Users/hsrag/Desktop/QAThingsToDo/BDDworkspace/BDD_Git"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="java.runtime.version" value="17.0.6+10"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.io.tmpdir" value="/var/folders/t5/9c7h4wz1157_b595mnh555ch0000gn/T/"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="classworlds.conf" value="/Users/hsrag/Desktop/QAThingsToDo/BDDworkspace/.metadata/.plugins/org.eclipse.m2e.launching/launches/m2conf13402468171517249639.tmp"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/hsrag/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.class.version" value="61.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.15.7"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="user.home" value="/Users/hsrag"/>
+    <property name="user.timezone" value="America/Toronto"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.specification.version" value="17"/>
+    <property name="user.name" value="hsrag"/>
+    <property name="java.class.path" value="/Applications/Eclipse 2.app/Contents/Eclipse/plugins/org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606/jars/plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B -Dstyle.color=always test"/>
+    <property name="java.home" value="/Applications/Eclipse 2.app/Contents/Eclipse/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.macosx.x86_64_17.0.6.v20230204-1729/jre"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="17.0.6"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.vendor" value="Eclipse Adoptium"/>
+    <property name="maven.home" value="/Users/hsrag/Desktop/QAThingsToDo/BDDworkspace/BDD_Git/EMBEDDED"/>
+    <property name="style.color" value="always"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.version.date" value="2023-01-17"/>
+    <property name="java.vendor.url.bug" value="https://github.com/adoptium/adoptium-support/issues"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="java.vendor.version" value="Temurin-17.0.6+10"/>
+    <property name="m2e.build.project.data.socket.port" value="56647"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+  </properties>
+  <testcase name="User on the signin page" classname="Creating first Repo" time="0.01">
+    <error message="The step &apos;User on the signin page&apos; and 9 other step(s) are undefined.&#10;You can implement these steps using the snippet(s) below:&#10;&#10;@Given(&quot;User on the signin page&quot;)&#10;public void user_on_the_signin_page() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@Given(&quot;title of signin page is&quot;)&#10;public void title_of_signin_page_is() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@When(&quot;user signs in with valid username and password&quot;)&#10;public void user_signs_in_with_valid_username_and_password(io.cucumber.datatable.DataTable dataTable) {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    // For automatic transformation, change DataTable to one of&#10;    // E, List&lt;E&gt;, List&lt;List&lt;E&gt;&gt;, List&lt;Map&lt;K,V&gt;&gt;, Map&lt;K,V&gt; or&#10;    // Map&lt;K, List&lt;V&gt;&gt;. E,K,V must be a String, Integer, Float,&#10;    // Double, Byte, Short, Long, BigInteger or BigDecimal.&#10;    //&#10;    // For other transformations you can register a DataTableType.&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@Then(&quot;Create repository link or new link is present&quot;)&#10;public void create_repository_link_or_new_link_is_present() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@When(&quot;user clicks create repository&quot;)&#10;public void user_clicks_create_repository() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@Then(&quot;user is on create a new repo page&quot;)&#10;public void user_is_on_create_a_new_repo_page() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@When(&quot;user enter repository name&quot;)&#10;public void user_enter_repository_name() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@When(&quot;clicks create repository button&quot;)&#10;public void clicks_create_repository_button() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@Then(&quot;user is in created repository page&quot;)&#10;public void user_is_in_created_repository_page() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@Then(&quot;user clicks signout&quot;)&#10;public void user_clicks_signout() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;" type="io.cucumber.junit.UndefinedStepException"><![CDATA[io.cucumber.junit.UndefinedStepException: 
+The step 'User on the signin page' and 9 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("User on the signin page")
+public void user_on_the_signin_page() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Given("title of signin page is")
+public void title_of_signin_page_is() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("user signs in with valid username and password")
+public void user_signs_in_with_valid_username_and_password(io.cucumber.datatable.DataTable dataTable) {
+    // Write code here that turns the phrase above into concrete actions
+    // For automatic transformation, change DataTable to one of
+    // E, List<E>, List<List<E>>, List<Map<K,V>>, Map<K,V> or
+    // Map<K, List<V>>. E,K,V must be a String, Integer, Float,
+    // Double, Byte, Short, Long, BigInteger or BigDecimal.
+    //
+    // For other transformations you can register a DataTableType.
+    throw new io.cucumber.java.PendingException();
+}
+@Then("Create repository link or new link is present")
+public void create_repository_link_or_new_link_is_present() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("user clicks create repository")
+public void user_clicks_create_repository() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("user is on create a new repo page")
+public void user_is_on_create_a_new_repo_page() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("user enter repository name")
+public void user_enter_repository_name() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("clicks create repository button")
+public void clicks_create_repository_button() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("user is in created repository page")
+public void user_is_in_created_repository_page() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("user clicks signout")
+public void user_clicks_signout() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+]]></error>
+    <system-out><![CDATA[
+@repo
+Scenario: Creating first Repo                         &amp#27;[90m# src/main/java/com/git/qa/features/Repo.feature:15&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="title of signin page is" classname="Creating first Repo" time="0">
+    <skipped/>
+    <system-out><![CDATA[  &amp#27;[33mGiven &amp#27;[0m&amp#27;[33mUser on the signin page&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="user signs in with valid username and password" classname="Creating first Repo" time="0">
+    <skipped/>
+    <system-out><![CDATA[  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mtitle of signin page is&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Create repository link or new link is present" classname="Creating first Repo" time="0">
+    <skipped/>
+    <system-out><![CDATA[  &amp#27;[36mWhen &amp#27;[0m&amp#27;[36muser signs in with valid username and password&amp#27;[0m
+    | harpreetk0586 | Hello7896! |
+]]></system-out>
+  </testcase>
+  <testcase name="user clicks create repository" classname="Creating first Repo" time="0">
+    <skipped/>
+    <system-out><![CDATA[  &amp#27;[36mThen &amp#27;[0m&amp#27;[36mCreate repository link or new link is present&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="user is on create a new repo page" classname="Creating first Repo" time="0">
+    <skipped/>
+    <system-out><![CDATA[  &amp#27;[36mWhen &amp#27;[0m&amp#27;[36muser clicks create repository&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="user enter repository name" classname="Creating first Repo" time="0">
+    <skipped/>
+    <system-out><![CDATA[  &amp#27;[36mThen &amp#27;[0m&amp#27;[36muser is on create a new repo page&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="clicks create repository button" classname="Creating first Repo" time="0">
+    <skipped/>
+    <system-out><![CDATA[  &amp#27;[36mWhen &amp#27;[0m&amp#27;[36muser enter repository name&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="user is in created repository page" classname="Creating first Repo" time="0">
+    <skipped/>
+    <system-out><![CDATA[  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mclicks create repository button&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="user clicks signout" classname="Creating first Repo" time="0">
+    <skipped/>
+    <system-out><![CDATA[  &amp#27;[36mThen &amp#27;[0m&amp#27;[36muser is in created repository page&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Creating first Repo" classname="Creating first Repo" time="0.005">
+    <error message="The step &apos;User on the signin page&apos; and 9 other step(s) are undefined.&#10;You can implement these steps using the snippet(s) below:&#10;&#10;@Given(&quot;User on the signin page&quot;)&#10;public void user_on_the_signin_page() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@Given(&quot;title of signin page is&quot;)&#10;public void title_of_signin_page_is() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@When(&quot;user signs in with valid username and password&quot;)&#10;public void user_signs_in_with_valid_username_and_password(io.cucumber.datatable.DataTable dataTable) {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    // For automatic transformation, change DataTable to one of&#10;    // E, List&lt;E&gt;, List&lt;List&lt;E&gt;&gt;, List&lt;Map&lt;K,V&gt;&gt;, Map&lt;K,V&gt; or&#10;    // Map&lt;K, List&lt;V&gt;&gt;. E,K,V must be a String, Integer, Float,&#10;    // Double, Byte, Short, Long, BigInteger or BigDecimal.&#10;    //&#10;    // For other transformations you can register a DataTableType.&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@Then(&quot;Create repository link or new link is present&quot;)&#10;public void create_repository_link_or_new_link_is_present() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@When(&quot;user clicks create repository&quot;)&#10;public void user_clicks_create_repository() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@Then(&quot;user is on create a new repo page&quot;)&#10;public void user_is_on_create_a_new_repo_page() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@When(&quot;user enter repository name&quot;)&#10;public void user_enter_repository_name() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@When(&quot;clicks create repository button&quot;)&#10;public void clicks_create_repository_button() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@Then(&quot;user is in created repository page&quot;)&#10;public void user_is_in_created_repository_page() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@Then(&quot;user clicks signout&quot;)&#10;public void user_clicks_signout() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;" type="io.cucumber.junit.UndefinedStepException"><![CDATA[io.cucumber.junit.UndefinedStepException: 
+The step 'User on the signin page' and 9 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("User on the signin page")
+public void user_on_the_signin_page() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Given("title of signin page is")
+public void title_of_signin_page_is() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("user signs in with valid username and password")
+public void user_signs_in_with_valid_username_and_password(io.cucumber.datatable.DataTable dataTable) {
+    // Write code here that turns the phrase above into concrete actions
+    // For automatic transformation, change DataTable to one of
+    // E, List<E>, List<List<E>>, List<Map<K,V>>, Map<K,V> or
+    // Map<K, List<V>>. E,K,V must be a String, Integer, Float,
+    // Double, Byte, Short, Long, BigInteger or BigDecimal.
+    //
+    // For other transformations you can register a DataTableType.
+    throw new io.cucumber.java.PendingException();
+}
+@Then("Create repository link or new link is present")
+public void create_repository_link_or_new_link_is_present() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("user clicks create repository")
+public void user_clicks_create_repository() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("user is on create a new repo page")
+public void user_is_on_create_a_new_repo_page() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("user enter repository name")
+public void user_enter_repository_name() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("clicks create repository button")
+public void clicks_create_repository_button() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("user is in created repository page")
+public void user_is_in_created_repository_page() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("user clicks signout")
+public void user_clicks_signout() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+]]></error>
+    <system-out><![CDATA[  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36muser clicks signout&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="User on the signin page" classname="Creating new Repo with different name" time="0.002">
+    <error message="The step &apos;User on the signin page&apos; and 9 other step(s) are undefined.&#10;You can implement these steps using the snippet(s) below:&#10;&#10;@Given(&quot;User on the signin page&quot;)&#10;public void user_on_the_signin_page() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@Given(&quot;title of signin page is&quot;)&#10;public void title_of_signin_page_is() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@When(&quot;user signs in with valid username and password&quot;)&#10;public void user_signs_in_with_valid_username_and_password(io.cucumber.datatable.DataTable dataTable) {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    // For automatic transformation, change DataTable to one of&#10;    // E, List&lt;E&gt;, List&lt;List&lt;E&gt;&gt;, List&lt;Map&lt;K,V&gt;&gt;, Map&lt;K,V&gt; or&#10;    // Map&lt;K, List&lt;V&gt;&gt;. E,K,V must be a String, Integer, Float,&#10;    // Double, Byte, Short, Long, BigInteger or BigDecimal.&#10;    //&#10;    // For other transformations you can register a DataTableType.&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@Then(&quot;Create repository link or new link is present&quot;)&#10;public void create_repository_link_or_new_link_is_present() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@When(&quot;user clicks new&quot;)&#10;public void user_clicks_new() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@Then(&quot;user is on create a new repo page&quot;)&#10;public void user_is_on_create_a_new_repo_page() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@When(&quot;user enter a diffferent repository name&quot;)&#10;public void user_enter_a_diffferent_repository_name() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@When(&quot;clicks create repository button&quot;)&#10;public void clicks_create_repository_button() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@Then(&quot;user is in new repository page&quot;)&#10;public void user_is_in_new_repository_page() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@Then(&quot;user clicks signout&quot;)&#10;public void user_clicks_signout() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;" type="io.cucumber.junit.UndefinedStepException"><![CDATA[io.cucumber.junit.UndefinedStepException: 
+The step 'User on the signin page' and 9 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("User on the signin page")
+public void user_on_the_signin_page() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Given("title of signin page is")
+public void title_of_signin_page_is() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("user signs in with valid username and password")
+public void user_signs_in_with_valid_username_and_password(io.cucumber.datatable.DataTable dataTable) {
+    // Write code here that turns the phrase above into concrete actions
+    // For automatic transformation, change DataTable to one of
+    // E, List<E>, List<List<E>>, List<Map<K,V>>, Map<K,V> or
+    // Map<K, List<V>>. E,K,V must be a String, Integer, Float,
+    // Double, Byte, Short, Long, BigInteger or BigDecimal.
+    //
+    // For other transformations you can register a DataTableType.
+    throw new io.cucumber.java.PendingException();
+}
+@Then("Create repository link or new link is present")
+public void create_repository_link_or_new_link_is_present() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("user clicks new")
+public void user_clicks_new() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("user is on create a new repo page")
+public void user_is_on_create_a_new_repo_page() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("user enter a diffferent repository name")
+public void user_enter_a_diffferent_repository_name() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("clicks create repository button")
+public void clicks_create_repository_button() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("user is in new repository page")
+public void user_is_in_new_repository_page() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("user clicks signout")
+public void user_clicks_signout() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+]]></error>
+    <system-out><![CDATA[
+@repo
+Scenario: Creating new Repo with different name       &amp#27;[90m# src/main/java/com/git/qa/features/Repo.feature:26&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="title of signin page is" classname="Creating new Repo with different name" time="0">
+    <skipped/>
+    <system-out><![CDATA[  &amp#27;[33mGiven &amp#27;[0m&amp#27;[33mUser on the signin page&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="user signs in with valid username and password" classname="Creating new Repo with different name" time="0">
+    <skipped/>
+    <system-out><![CDATA[  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mtitle of signin page is&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Create repository link or new link is present" classname="Creating new Repo with different name" time="0">
+    <skipped/>
+    <system-out><![CDATA[  &amp#27;[36mWhen &amp#27;[0m&amp#27;[36muser signs in with valid username and password&amp#27;[0m
+    | harpreetk0586 | Hello7896! |
+]]></system-out>
+  </testcase>
+  <testcase name="user clicks new" classname="Creating new Repo with different name" time="0">
+    <skipped/>
+    <system-out><![CDATA[  &amp#27;[36mThen &amp#27;[0m&amp#27;[36mCreate repository link or new link is present&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="user is on create a new repo page" classname="Creating new Repo with different name" time="0">
+    <skipped/>
+    <system-out><![CDATA[  &amp#27;[36mWhen &amp#27;[0m&amp#27;[36muser clicks new&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="user enter a diffferent repository name" classname="Creating new Repo with different name" time="0">
+    <skipped/>
+    <system-out><![CDATA[  &amp#27;[36mThen &amp#27;[0m&amp#27;[36muser is on create a new repo page&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="clicks create repository button" classname="Creating new Repo with different name" time="0">
+    <skipped/>
+    <system-out><![CDATA[  &amp#27;[36mWhen &amp#27;[0m&amp#27;[36muser enter a diffferent repository name&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="user is in new repository page" classname="Creating new Repo with different name" time="0">
+    <skipped/>
+    <system-out><![CDATA[  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mclicks create repository button&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="user clicks signout" classname="Creating new Repo with different name" time="0">
+    <skipped/>
+    <system-out><![CDATA[  &amp#27;[36mThen &amp#27;[0m&amp#27;[36muser is in new repository page&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Creating new Repo with different name" classname="Creating new Repo with different name" time="0.001">
+    <error message="The step &apos;User on the signin page&apos; and 9 other step(s) are undefined.&#10;You can implement these steps using the snippet(s) below:&#10;&#10;@Given(&quot;User on the signin page&quot;)&#10;public void user_on_the_signin_page() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@Given(&quot;title of signin page is&quot;)&#10;public void title_of_signin_page_is() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@When(&quot;user signs in with valid username and password&quot;)&#10;public void user_signs_in_with_valid_username_and_password(io.cucumber.datatable.DataTable dataTable) {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    // For automatic transformation, change DataTable to one of&#10;    // E, List&lt;E&gt;, List&lt;List&lt;E&gt;&gt;, List&lt;Map&lt;K,V&gt;&gt;, Map&lt;K,V&gt; or&#10;    // Map&lt;K, List&lt;V&gt;&gt;. E,K,V must be a String, Integer, Float,&#10;    // Double, Byte, Short, Long, BigInteger or BigDecimal.&#10;    //&#10;    // For other transformations you can register a DataTableType.&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@Then(&quot;Create repository link or new link is present&quot;)&#10;public void create_repository_link_or_new_link_is_present() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@When(&quot;user clicks new&quot;)&#10;public void user_clicks_new() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@Then(&quot;user is on create a new repo page&quot;)&#10;public void user_is_on_create_a_new_repo_page() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@When(&quot;user enter a diffferent repository name&quot;)&#10;public void user_enter_a_diffferent_repository_name() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@When(&quot;clicks create repository button&quot;)&#10;public void clicks_create_repository_button() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@Then(&quot;user is in new repository page&quot;)&#10;public void user_is_in_new_repository_page() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@Then(&quot;user clicks signout&quot;)&#10;public void user_clicks_signout() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;" type="io.cucumber.junit.UndefinedStepException"><![CDATA[io.cucumber.junit.UndefinedStepException: 
+The step 'User on the signin page' and 9 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("User on the signin page")
+public void user_on_the_signin_page() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Given("title of signin page is")
+public void title_of_signin_page_is() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("user signs in with valid username and password")
+public void user_signs_in_with_valid_username_and_password(io.cucumber.datatable.DataTable dataTable) {
+    // Write code here that turns the phrase above into concrete actions
+    // For automatic transformation, change DataTable to one of
+    // E, List<E>, List<List<E>>, List<Map<K,V>>, Map<K,V> or
+    // Map<K, List<V>>. E,K,V must be a String, Integer, Float,
+    // Double, Byte, Short, Long, BigInteger or BigDecimal.
+    //
+    // For other transformations you can register a DataTableType.
+    throw new io.cucumber.java.PendingException();
+}
+@Then("Create repository link or new link is present")
+public void create_repository_link_or_new_link_is_present() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("user clicks new")
+public void user_clicks_new() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("user is on create a new repo page")
+public void user_is_on_create_a_new_repo_page() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("user enter a diffferent repository name")
+public void user_enter_a_diffferent_repository_name() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("clicks create repository button")
+public void clicks_create_repository_button() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("user is in new repository page")
+public void user_is_in_new_repository_page() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("user clicks signout")
+public void user_clicks_signout() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+]]></error>
+    <system-out><![CDATA[  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36muser clicks signout&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="User on the signin page" classname="Creating new Repo with existing name" time="0.002">
+    <error message="The step &apos;User on the signin page&apos; and 8 other step(s) are undefined.&#10;You can implement these steps using the snippet(s) below:&#10;&#10;@Given(&quot;User on the signin page&quot;)&#10;public void user_on_the_signin_page() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@Given(&quot;title of signin page is&quot;)&#10;public void title_of_signin_page_is() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@When(&quot;user signs in with valid username and password&quot;)&#10;public void user_signs_in_with_valid_username_and_password(io.cucumber.datatable.DataTable dataTable) {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    // For automatic transformation, change DataTable to one of&#10;    // E, List&lt;E&gt;, List&lt;List&lt;E&gt;&gt;, List&lt;Map&lt;K,V&gt;&gt;, Map&lt;K,V&gt; or&#10;    // Map&lt;K, List&lt;V&gt;&gt;. E,K,V must be a String, Integer, Float,&#10;    // Double, Byte, Short, Long, BigInteger or BigDecimal.&#10;    //&#10;    // For other transformations you can register a DataTableType.&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@Then(&quot;Create repository link or new link is present&quot;)&#10;public void create_repository_link_or_new_link_is_present() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@When(&quot;user clicks new&quot;)&#10;public void user_clicks_new() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@Then(&quot;user is on create a new repo page&quot;)&#10;public void user_is_on_create_a_new_repo_page() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@When(&quot;user enter an existing repository name&quot;)&#10;public void user_enter_an_existing_repository_name() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@Then(&quot;user sees a popup error message&quot;)&#10;public void user_sees_a_popup_error_message() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@Then(&quot;user clicks signout&quot;)&#10;public void user_clicks_signout() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;" type="io.cucumber.junit.UndefinedStepException"><![CDATA[io.cucumber.junit.UndefinedStepException: 
+The step 'User on the signin page' and 8 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("User on the signin page")
+public void user_on_the_signin_page() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Given("title of signin page is")
+public void title_of_signin_page_is() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("user signs in with valid username and password")
+public void user_signs_in_with_valid_username_and_password(io.cucumber.datatable.DataTable dataTable) {
+    // Write code here that turns the phrase above into concrete actions
+    // For automatic transformation, change DataTable to one of
+    // E, List<E>, List<List<E>>, List<Map<K,V>>, Map<K,V> or
+    // Map<K, List<V>>. E,K,V must be a String, Integer, Float,
+    // Double, Byte, Short, Long, BigInteger or BigDecimal.
+    //
+    // For other transformations you can register a DataTableType.
+    throw new io.cucumber.java.PendingException();
+}
+@Then("Create repository link or new link is present")
+public void create_repository_link_or_new_link_is_present() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("user clicks new")
+public void user_clicks_new() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("user is on create a new repo page")
+public void user_is_on_create_a_new_repo_page() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("user enter an existing repository name")
+public void user_enter_an_existing_repository_name() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("user sees a popup error message")
+public void user_sees_a_popup_error_message() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("user clicks signout")
+public void user_clicks_signout() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+]]></error>
+    <system-out><![CDATA[
+@repo
+Scenario: Creating new Repo with existing name        &amp#27;[90m# src/main/java/com/git/qa/features/Repo.feature:37&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="title of signin page is" classname="Creating new Repo with existing name" time="0">
+    <skipped/>
+    <system-out><![CDATA[  &amp#27;[33mGiven &amp#27;[0m&amp#27;[33mUser on the signin page&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="user signs in with valid username and password" classname="Creating new Repo with existing name" time="0">
+    <skipped/>
+    <system-out><![CDATA[  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mtitle of signin page is&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Create repository link or new link is present" classname="Creating new Repo with existing name" time="0">
+    <skipped/>
+    <system-out><![CDATA[  &amp#27;[36mWhen &amp#27;[0m&amp#27;[36muser signs in with valid username and password&amp#27;[0m
+    | harpreetk0586 | Hello7896! |
+]]></system-out>
+  </testcase>
+  <testcase name="user clicks new" classname="Creating new Repo with existing name" time="0">
+    <skipped/>
+    <system-out><![CDATA[  &amp#27;[36mThen &amp#27;[0m&amp#27;[36mCreate repository link or new link is present&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="user is on create a new repo page" classname="Creating new Repo with existing name" time="0">
+    <skipped/>
+    <system-out><![CDATA[  &amp#27;[36mWhen &amp#27;[0m&amp#27;[36muser clicks new&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="user enter an existing repository name" classname="Creating new Repo with existing name" time="0">
+    <skipped/>
+    <system-out><![CDATA[  &amp#27;[36mThen &amp#27;[0m&amp#27;[36muser is on create a new repo page&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="user sees a popup error message" classname="Creating new Repo with existing name" time="0">
+    <skipped/>
+    <system-out><![CDATA[  &amp#27;[36mWhen &amp#27;[0m&amp#27;[36muser enter an existing repository name&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="user clicks signout" classname="Creating new Repo with existing name" time="0">
+    <skipped/>
+    <system-out><![CDATA[  &amp#27;[36mThen &amp#27;[0m&amp#27;[36muser sees a popup error message&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Creating new Repo with existing name" classname="Creating new Repo with existing name" time="0.001">
+    <error message="The step &apos;User on the signin page&apos; and 8 other step(s) are undefined.&#10;You can implement these steps using the snippet(s) below:&#10;&#10;@Given(&quot;User on the signin page&quot;)&#10;public void user_on_the_signin_page() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@Given(&quot;title of signin page is&quot;)&#10;public void title_of_signin_page_is() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@When(&quot;user signs in with valid username and password&quot;)&#10;public void user_signs_in_with_valid_username_and_password(io.cucumber.datatable.DataTable dataTable) {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    // For automatic transformation, change DataTable to one of&#10;    // E, List&lt;E&gt;, List&lt;List&lt;E&gt;&gt;, List&lt;Map&lt;K,V&gt;&gt;, Map&lt;K,V&gt; or&#10;    // Map&lt;K, List&lt;V&gt;&gt;. E,K,V must be a String, Integer, Float,&#10;    // Double, Byte, Short, Long, BigInteger or BigDecimal.&#10;    //&#10;    // For other transformations you can register a DataTableType.&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@Then(&quot;Create repository link or new link is present&quot;)&#10;public void create_repository_link_or_new_link_is_present() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@When(&quot;user clicks new&quot;)&#10;public void user_clicks_new() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@Then(&quot;user is on create a new repo page&quot;)&#10;public void user_is_on_create_a_new_repo_page() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@When(&quot;user enter an existing repository name&quot;)&#10;public void user_enter_an_existing_repository_name() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@Then(&quot;user sees a popup error message&quot;)&#10;public void user_sees_a_popup_error_message() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@Then(&quot;user clicks signout&quot;)&#10;public void user_clicks_signout() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;" type="io.cucumber.junit.UndefinedStepException"><![CDATA[io.cucumber.junit.UndefinedStepException: 
+The step 'User on the signin page' and 8 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("User on the signin page")
+public void user_on_the_signin_page() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Given("title of signin page is")
+public void title_of_signin_page_is() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("user signs in with valid username and password")
+public void user_signs_in_with_valid_username_and_password(io.cucumber.datatable.DataTable dataTable) {
+    // Write code here that turns the phrase above into concrete actions
+    // For automatic transformation, change DataTable to one of
+    // E, List<E>, List<List<E>>, List<Map<K,V>>, Map<K,V> or
+    // Map<K, List<V>>. E,K,V must be a String, Integer, Float,
+    // Double, Byte, Short, Long, BigInteger or BigDecimal.
+    //
+    // For other transformations you can register a DataTableType.
+    throw new io.cucumber.java.PendingException();
+}
+@Then("Create repository link or new link is present")
+public void create_repository_link_or_new_link_is_present() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("user clicks new")
+public void user_clicks_new() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("user is on create a new repo page")
+public void user_is_on_create_a_new_repo_page() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("user enter an existing repository name")
+public void user_enter_an_existing_repository_name() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("user sees a popup error message")
+public void user_sees_a_popup_error_message() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("user clicks signout")
+public void user_clicks_signout() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+]]></error>
+    <system-out><![CDATA[  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36muser clicks signout&amp#27;[0m
+]]></system-out>
+  </testcase>
+</testsuite>

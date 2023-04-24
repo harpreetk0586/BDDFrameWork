@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<script src="js/jquery.min.js"></script>
+<script src="js/jquery.tablesorter.min.js"></script>
+<script src="js/Chart.min.js"></script>
+<script src="js/moment.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" href="css/bootstrap.min.css" type="text/css"/>
+<link rel="stylesheet" href="css/cucumber.css" type="text/css"/>
+<link rel="stylesheet" href="css/font-awesome.min.css"/>
+<link rel="shortcut icon" href="images/favicon.png"/>
+
+<script>
+$(document).ready(function() {
+    // this will tell tablesorter to try looking for the data-value attribute
+    // if present, it'll sort by that instead
+    // otherwise, it'll sort by the text content of the table cell
+    $("#tablesorter").tablesorter({
+        textAttribute: 'data-value',
+        // ignores the first row of the header, the 'scenario', 'steps', since
+        // sorting those doesn't make sense
+        selectorHeaders: '> thead tr:not(.dont-sort) th',
+        // use a stable sort
+        sortStable: true
+    });
+});
+</script>
+
+
+
+
+
+
+
+
+
+
+
+<title>Cucumber Reports (no 1) - Steps Overview</title>
+
+</head>
+<body>
+
+<nav class="navbar navbar-default navbar-fixed-top" id="navigation">
+  <div class="container-fluid">
+    <div class="collapse navbar-collapse">
+      <p class="navbar-text navbar-left">Cucumber Report</p>
+      <ul class="nav navbar-nav navbar-right">
+          <li role="presentation"><a href="../">Jenkins</a></li>
+          <li role="presentation"><a href="../../lastCompletedBuild/cucumber-html-reports/overview-steps.html">Latest results</a></li>
+        <li role="presentation" ><a href="overview-features.html">Features</a></li>
+        <li role="presentation" ><a href="overview-tags.html">Tags</a></li>
+        <li role="presentation"     class="active" ><a href="overview-steps.html">Steps</a></li>
+        <li role="presentation" ><a href="overview-failures.html">Failures</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+<div class="container-fluid">
+  <div class="col-md-5 col-md-offset-1">
+
+<table class="table table-bordered" id="build-info">
+  <thead>
+    <tr>
+      <th>Project</th>
+        <th>Number</th>
+      <th>Date</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr class="info">
+      <td>cucumberProject</td>
+        <td>1</td>
+      <td>24 Apr 2023, 14:19</td>
+    </tr>
+  </tbody>
+</table>
+
+  </div>
+  <div class="col-md-3 col-md-offset-2">
+  </div>
+</div>
+
+
+<div id="report-lead" class="container-fluid">
+  <div class="col-md-10 col-md-offset-1">
+    <h2>Steps Statistics</h2>
+      <p>The following graph shows step statistics for this build. Below list is based on results.
+ step does not provide information about result then is not listed below.
+ Additionally @Before and @After are not counted because they are part of the scenarios, not steps.</p>
+  </div>
+</div>
+
+<div class="container-fluid" id="report">
+  <div class="row">
+    <div class="col-md-10 col-md-offset-1">
+      <table id="tablesorter" class="stats-table table-hover">
+
+        <thead>
+          <tr class="header">
+            <th>Implementation</th>
+            <th>Occurrences</th>
+            <th>Average duration</th>
+            <th>Max duration</th>
+            <th>Total durations</th>
+            <th>Ratio</th>
+          </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+              <td class="location">com.git.qa.StepDefinitions.Hooks.setUp()</td>
+              <td>5</td>
+              <td class="duration" data-value="2650949200">2.650</td>
+              <td class="duration" data-value="2650949200">4.420</td>
+              <td class="duration" data-value="13254746000">13.254</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">com.git.qa.StepDefinitions.Hooks.takeScreenshotOnFailure(io.cucumber.java.Scenario)</td>
+              <td>5</td>
+              <td class="duration" data-value="86863600">0.086</td>
+              <td class="duration" data-value="86863600">0.432</td>
+              <td class="duration" data-value="434318000">0.434</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">com.git.qa.StepDefinitions.Hooks.tearDown()</td>
+              <td>5</td>
+              <td class="duration" data-value="162480200">0.162</td>
+              <td class="duration" data-value="162480200">0.212</td>
+              <td class="duration" data-value="812401000">0.812</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">com.git.qa.StepDefinitions.LoginStepDefinitions.title_of_signin_page_is()</td>
+              <td>5</td>
+              <td class="duration" data-value="9102800">0.009</td>
+              <td class="duration" data-value="9102800">0.020</td>
+              <td class="duration" data-value="45514000">0.045</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">com.git.qa.StepDefinitions.LoginStepDefinitions.user_clicks_signout()</td>
+              <td>4</td>
+              <td class="duration" data-value="1685905250">1.685</td>
+              <td class="duration" data-value="1685905250">3.515</td>
+              <td class="duration" data-value="6743621000">6.743</td>
+              <td class="failed">75.00%</td>
+            </tr>
+            <tr>
+              <td class="location">com.git.qa.StepDefinitions.LoginStepDefinitions.user_clicks_userdropdown_and_confirms_username(io.cucumber.datatable.DataTable)</td>
+              <td>1</td>
+              <td class="duration" data-value="313694000">0.313</td>
+              <td class="duration" data-value="313694000">0.313</td>
+              <td class="duration" data-value="313694000">0.313</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">com.git.qa.StepDefinitions.LoginStepDefinitions.user_enters_valid_username_and_password(io.cucumber.datatable.DataTable)</td>
+              <td>4</td>
+              <td class="duration" data-value="1371824250">1.371</td>
+              <td class="duration" data-value="1371824250">1.646</td>
+              <td class="duration" data-value="5487297000">5.487</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">com.git.qa.StepDefinitions.LoginStepDefinitions.user_on_the_signin_page()</td>
+              <td>5</td>
+              <td class="duration" data-value="490970000">0.490</td>
+              <td class="duration" data-value="490970000">0.506</td>
+              <td class="duration" data-value="2454850000">2.454</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">com.git.qa.StepDefinitions.LoginStepDefinitions.user_should_see_alert_message()</td>
+              <td>1</td>
+              <td class="duration" data-value="37876000">0.037</td>
+              <td class="duration" data-value="37876000">0.037</td>
+              <td class="duration" data-value="37876000">0.037</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">com.git.qa.StepDefinitions.LoginStepDefinitions.user_signs_in_with_wrongusername_and_wrongpassword(java.lang.String,java.lang.String)</td>
+              <td>1</td>
+              <td class="duration" data-value="510078000">0.510</td>
+              <td class="duration" data-value="510078000">0.510</td>
+              <td class="duration" data-value="510078000">0.510</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">com.git.qa.StepDefinitions.RepoStepDefinitions.clicks_create_repository_button()</td>
+              <td>2</td>
+              <td class="duration" data-value="1925830000">1.925</td>
+              <td class="duration" data-value="1925830000">1.994</td>
+              <td class="duration" data-value="3851660000">3.851</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">com.git.qa.StepDefinitions.RepoStepDefinitions.create_repository_link_or_new_link_is_present()</td>
+              <td>3</td>
+              <td class="duration" data-value="3456457333">3.456</td>
+              <td class="duration" data-value="3456457333">10.168</td>
+              <td class="duration" data-value="10369372000">10.369</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">com.git.qa.StepDefinitions.RepoStepDefinitions.user_clicks_create_repository()</td>
+              <td>1</td>
+              <td class="duration" data-value="566297000">0.566</td>
+              <td class="duration" data-value="566297000">0.566</td>
+              <td class="duration" data-value="566297000">0.566</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">com.git.qa.StepDefinitions.RepoStepDefinitions.user_clicks_new()</td>
+              <td>2</td>
+              <td class="duration" data-value="631639500">0.631</td>
+              <td class="duration" data-value="631639500">0.661</td>
+              <td class="duration" data-value="1263279000">1.263</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">com.git.qa.StepDefinitions.RepoStepDefinitions.user_enter_a_diffferent_repository_name()</td>
+              <td>1</td>
+              <td class="duration" data-value="555935000">0.555</td>
+              <td class="duration" data-value="555935000">0.555</td>
+              <td class="duration" data-value="555935000">0.555</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">com.git.qa.StepDefinitions.RepoStepDefinitions.user_enter_an_existing_repository_name()</td>
+              <td>1</td>
+              <td class="duration" data-value="2122850000">2.122</td>
+              <td class="duration" data-value="2122850000">2.122</td>
+              <td class="duration" data-value="2122850000">2.122</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">com.git.qa.StepDefinitions.RepoStepDefinitions.user_enter_repository_name()</td>
+              <td>1</td>
+              <td class="duration" data-value="551218000">0.551</td>
+              <td class="duration" data-value="551218000">0.551</td>
+              <td class="duration" data-value="551218000">0.551</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">com.git.qa.StepDefinitions.RepoStepDefinitions.user_is_in_created_repository_page()</td>
+              <td>1</td>
+              <td class="duration" data-value="10076000">0.010</td>
+              <td class="duration" data-value="10076000">0.010</td>
+              <td class="duration" data-value="10076000">0.010</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">com.git.qa.StepDefinitions.RepoStepDefinitions.user_is_in_new_repository_page()</td>
+              <td>1</td>
+              <td class="duration" data-value="7103000">0.007</td>
+              <td class="duration" data-value="7103000">0.007</td>
+              <td class="duration" data-value="7103000">0.007</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">com.git.qa.StepDefinitions.RepoStepDefinitions.user_is_on_create_a_new_repo_page()</td>
+              <td>3</td>
+              <td class="duration" data-value="15487000">0.015</td>
+              <td class="duration" data-value="15487000">0.021</td>
+              <td class="duration" data-value="46461000">0.046</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">com.git.qa.StepDefinitions.RepoStepDefinitions.user_sees_a_popup_error_message()</td>
+              <td>1</td>
+              <td class="duration" data-value="34429000">0.034</td>
+              <td class="duration" data-value="34429000">0.034</td>
+              <td class="duration" data-value="34429000">0.034</td>
+              <td class="failed">0.00%</td>
+            </tr>
+        </tbody>
+
+        <tfoot class="total">
+          <tr>
+            <td>21</td>
+            <td>53</td>
+            <td class="duration">0.933</td>
+            <td class="duration">13.254</td>
+            <td class="duration">49.473</td>
+            <td>Totals</td>
+          </tr>
+        </tfoot>
+
+      </table>
+    </div>
+  </div>
+</div>
+
+
+<nav class="navbar navbar-default" id="footer">
+  <div class="container-fluid">
+    <p class="navbar-text navbar-right">
+        <small>generate Cucumber HTML reports via:&nbsp;</small>
+        <a class="navbar-link" href="https://github.com/jenkinsci/cucumber-reports-plugin">Jenkins Plugin</a> |
+        <a class="navbar-link" href="https://github.com/damianszczepanik/cucumber-reporting">Standalone</a> |
+        <a class="navbar-link" href="https://github.com/damianszczepanik/cucumber-sandwich">Sandwich</a> |
+        <a class="navbar-link" href="https://github.com/damianszczepanik/maven-cucumber-reporting">Maven</a>
+        &nbsp;&nbsp;
+    </p>
+  </div>
+</nav>
+
+</body>
+</html>

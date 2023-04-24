@@ -1,0 +1,6 @@
+com/git/qa/hooks/Hooks.class
+com/git/qa/runners/LoginRunner.class
+com/git/qa/runners/AllRunners.class
+com/git/qa/runners/RepoRunner.class
+com/git/qa/StepDefinitions/LoginStepDefinitions.class
+com/git/qa/StepDefinitions/RepoStepDefinitions.class

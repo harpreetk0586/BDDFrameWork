@@ -1,0 +1,4 @@
+com/git/qa/base/TestBase.class
+com/git/qa/utilties/TestUtil.class
+com/git/qa/pages/RepoPage.class
+com/git/qa/pages/LoginPage.class
